@@ -17,7 +17,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
             if re.search('[a-zA-Z]', split[1]):
                 PathCheck = True
             if(PathCheck == True):
-                currentPath=os.getcwd()
+                os.getcwd()
                 os.chdir(split[1])
             elif(msg == 'cd ..' or msg == "cd /"):
                 os.chdir("..")

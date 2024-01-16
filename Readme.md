@@ -28,8 +28,6 @@ but this repo contains only few of these modules.
     
     "                         upload : to upload any file\n"
     
-    "                         kavachdb : to download kavach db\n"
-    
     "                         other : to execute any shell command\n"
     
     "                         exit : to exit the connecton\n"
